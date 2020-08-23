@@ -562,6 +562,28 @@ section {
   right: 18px;
   top: 9px;
 }
+.more-btn{
+  display: inline-block;
+  background: #67b0d1;
+  padding: 6px 44px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+  position: relative;
+}
+.button-container{
+  text-align:center;
+}
+.more-btn i {
+  font-size: 18px;
+  position: absolute;
+  right: 18px;
+  top: 9px;
+}
+.more-btn:hover{
+  background: #7bbad7;
+}
+
 
 .about .content .about-btn:hover {
   background: #7bbad7;
