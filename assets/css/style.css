@@ -581,7 +581,8 @@ section {
   top: 9px;
 }
 .more-btn:hover{
-  background: #7bbad7;
+  color:white;
+  background: #8ec4dd;
 }
 
 
