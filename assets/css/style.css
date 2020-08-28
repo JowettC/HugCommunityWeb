@@ -626,6 +626,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  width:100%;
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -865,7 +866,7 @@ section {
   text-align: center;
   background: rgba(103, 176, 209, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
