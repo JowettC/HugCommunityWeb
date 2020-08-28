@@ -656,10 +656,17 @@ section {
 
 .services .icon {
   margin-bottom: 15px;
+  text-align:center;
 }
 
 .services .icon i {
   font-size: 48px;
+  line-height: 1;
+  color: #67b0d1;
+  transition: all 0.3s ease-in-out;
+}
+.services .icon svg {
+  font-size: 40px;
   line-height: 1;
   color: #67b0d1;
   transition: all 0.3s ease-in-out;
@@ -669,6 +676,7 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  text-align:center
 }
 
 .services .title a {
@@ -679,6 +687,7 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  text-align:center;
 }
 
 .services .icon-box:hover .title a, .services .icon-box:hover .description {
@@ -686,6 +695,9 @@ section {
 }
 
 .services .icon-box:hover .icon i {
+  color: #fff;
+}
+.services .icon-box:hover .icon span {
   color: #fff;
 }
 
