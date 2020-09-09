@@ -655,6 +655,12 @@ section {
   top: 0;
   border-radius: 0px;
 }
+.services .icon-box:hover ~ .services .icon svg {
+  color: white !important;
+}
+.services .icon svg:hover{
+  color: white !important;
+}
 
 .services .icon {
   margin-bottom: 15px;
