@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #86c0da;
+  background: #F9E292;
   transition: background 0.2s ease-in-out;
 }
 
@@ -246,8 +246,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
 }
 
-.mobile-nav-toggle i {
-  color: #fff;
+.colored-icon{
+  color: #fff
 }
 
 .mobile-nav {

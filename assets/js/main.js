@@ -103,6 +103,7 @@
       }
       if (cur_pos < 300) {
         $(".nav-menu ul:first li:first").addClass('active');
+        
       }
     });
   });
@@ -111,8 +112,10 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      $('.icofont-navigation-menu').addClass('colored-icon');
     } else {
       $('#header').removeClass('header-scrolled');
+      $('.icofont-navigation-menu').removeClass('colored-icon');
     }
   });
   if ($(window).scrollTop() > 100) {
