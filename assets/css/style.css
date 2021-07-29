@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #header.header-scrolled {
     padding: 15px 0;
   }
@@ -541,7 +541,12 @@ section {
   color: #2f4d5a;
   margin-bottom: 30px;
 }
-
+.about .content h4{
+  font-weight: 700;
+  font-size: 25px;
+  color: #2f4d5a;
+  margin-bottom: 30px;
+}
 .about .content p {
   margin-bottom: 30px;
 }
