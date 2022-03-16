@@ -5,6 +5,21 @@
 * License: https://bootstrapmade.com/license/
 */
 
+/* webbrickssg extra */
+.core-value-title{
+  font-weight:bold;
+  font-size:1.5em;
+  color:#CD3636;
+  
+}
+.core-value-picture{
+  width:130px;
+}
+.core-value-content{
+  padding-left:10px;
+  padding-right:10px;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
